@@ -1,0 +1,31 @@
+[information]
+projectname=nhsj.mpr
+filename=nhsj.mrp
+appname=你好世界
+appid=1668
+version=0001
+visible=1
+cpu=3
+vendor=E界开发者
+output=nhsj.mrp
+description=E界天枫出品
+include=C:\SKYMOBI\SDS4CPv1.0\Compiler\include\, sfw\modules\, src\
+config=mtk
+[config_spr]
+plat=spreadtrum
+bmp_mode=spreadtrum
+output=spr_nhsj.mrp
+[config_mtk]
+bmp_mode=normal
+output=vNES.mrp
+c_compiler=thumb
+[files]
+file01 = neslib\PPU.c
+file02 = neslib\Mapper.c
+file03 = neslib\JOYPAD.c
+file04 = neslib\CPU.c
+file05 = neslib\APU.c
+file06 = neslib\Waves'NES.c
+file07 = neslib\sram.c
+file08 = neslib\PPUINC.c
+file09 =src\Helloworld.c
